@@ -1,0 +1,517 @@
+/*
+Theme Name: Web Khoi Nghiep
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.div-thoi-gian .col-inner{
+    padding-top: 40px !important;
+}
+.div-thoi-gian .col-inner:before {
+    content: "";
+    position: absolute;
+    background-image: url(//bizweb.dktcdn.net/100/415/010/themes/822537/assets/vector_datban.png?1622460125790);
+    background-repeat: no-repeat;
+    width: 225px;
+    height: 201px;
+    bottom: 0;
+    right: 10px;
+}
+@font-face{font-family:'UTM Bebas';src:url("fonts/utm-bebas.ttf") format("truetype")}
+#billing_address_1_field{
+        width: 100%;
+}
+.blog-archive {
+        background: #f1f1f1;
+}
+.blog-archive .box-text{
+    padding: 20px;
+}
+.div-form-tong{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.left-dat-ban .text {
+    height: 100%;
+}
+.left-dat-ban .text:before {
+    top: inherit;
+    left: inherit;
+    bottom: -5px;
+    right: -5px;
+}
+.left-dat-ban {
+     background-size: auto 100%;
+    background: url(//bizweb.dktcdn.net/100/351/580/themes/714586/assets/open-hour-bg.png?1564557016331) no-repeat scroll 0px 0px;
+    text-align: center;
+    padding: 20px;
+}
+.right-dat-ban {
+  
+    background: url(//bizweb.dktcdn.net/100/351/580/themes/714586/assets/bg-datban.jpg?1564557016331) no-repeat scroll center;
+    background-size: cover;
+    padding: 30px;
+}
+.left-dat-ban a {
+    font-weight: 700;
+    font-size: 24px;
+}
+#content .left-dat-ban,#content .right-dat-ban{
+  padding: 20px !important;
+}
+.left-dat-ban h3.border {
+    border-top: 1px dashed #fff;
+    margin-top: 12px;
+    padding-top: 12px;
+}
+ .left-dat-ban .text {
+    border: 1px solid #fff;
+    position: relative;
+    padding: 15px;
+    color: #fff;
+}
+.left-dat-ban h3 ,.right-dat-ban h3{
+    color: #fff;
+    font-weight: 700;
+}
+.left-dat-ban .text:after,.left-dat-ban .text:before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    top: -5px;
+    left: -5px;
+    border-radius: 50%;
+}
+.icon-dat-ban {
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    text-align: center;
+    z-index: 99999;
+}
+.icon-dat-ban:hover i {
+    left: 4px;
+    right: inherit;
+    width: calc(100% - 8px);
+    text-align: left;
+}
+.icon-dat-ban:hover a {
+    padding-left: 54px;
+    padding-right: 20px;
+}
+.icon-dat-ban i {
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background: #e4b95b;
+    transition: all 0.5s ease 0s;
+    position: absolute;
+    right: 0px;
+    top: 4px;
+    left: calc(100% - 44px);
+    z-index: 2;
+    padding: 0 10px;
+    opacity: 0.8;
+    border: 1px solid #fff;
+}
+.icon-dat-ban span {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 10px;
+    z-index: 9;
+    position: relative;
+    display: inline-block;
+}
+.icon-dat-ban a {
+    padding: 0px 54px 0px 20px;
+    display: inline-block;
+    position: relative;
+    border-radius: 25px;
+    background: #4D8A54;
+    height: 48px;
+    line-height: 48px;
+    box-shadow: 0px 1px 5px 3px #f3f3f3;
+}
+.product-small .box-excerpt{
+    color: black;
+    display: none ;
+}
+.section-menu .product-small .box-excerpt{
+    font-size: 16px;
+    color: white !important;
+    display: block !important;
+}
+.div-no-padding{
+    padding-bottom: 0px;
+}
+.section-banner .container{max-width:1900px !important;}
+.div-dat-ban{
+    text-align: center;
+}
+.div-dat-ban p,.div-dat-ban h3{
+    color: white;
+}
+.section-chi-duong .accordion .toggle{
+left: unset !important;
+right: 0 !important;
+}
+
+.section-chi-duong .active .icon-angle-down:before {
+    content: "\f056" !important;
+}
+.section-chi-duong  .icon-angle-down:before {
+    content: "\f055";
+}
+.title-tin-tuc{
+     color: #e4b95b;
+     text-transform: uppercase;
+}
+.section-footer-1{
+        background: url(images/banner-footer.jpg) no-repeat scroll center;
+    background-size: cover;
+    position: relative;
+ 
+}
+.absolute-footer{
+    display: none;
+}
+
+.product-title a{
+    font-weight: bold;
+       color: var(--primary-color) !important;
+}
+.section-menu  .product-title a{
+    font-weight: bold;
+    font-size: 18px;
+     color: var(--primary-color) !important;
+}
+ 
+.section-menu span.amount{
+      color: #e4b95b;
+         font-size: 18px;
+}
+.post-item .col-inner,.post-item .col-inner .box{
+
+}
+.section-style{
+    padding-top: 0px !important;
+}
+
+.flickity-slider .product-small{
+    margin-top: 4px;
+}
+
+.section-style .banner,.section-style .img .img-inner{
+    border-radius: 15px;
+}
+span.amount{
+    color:#e4b95b
+}
+.section-menu .title-wrapper{
+        margin-bottom: 11px;
+    border-bottom: 2px dashed white;
+}
+.product-small .box-image{
+        border: 1px solid #ebebeb;
+}
+.section-menu .price-wrapper{
+        margin-top: -34px;
+    float: right;
+}
+.title-home{
+ font-family:'UTM Bebas';
+ font-weight:500;
+  text-transform: uppercase;
+
+    color: var(--primary-color) !important;
+    font-size: 40px;
+}
+.star-rating span:before{
+    color: yellow;
+}
+.div-khach-hang p,.div-khach-hang h3{
+    color: white;
+}
+.div-form{
+    padding: 10px
+}
+.ui_tpicker_timezone{
+    display: none !important
+}
+.ui-datepicker dl dt,.ui-datepicker  dl dd{
+    display: block ;
+}
+.div-khach-hang{
+     background-color: #e62b4c;
+        background-image: url(images/feedback-bg-left.png);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+
+}
+.div-tin-tuc{
+
+    background: #f1f1f1;
+    background-image: url(images/feedback-bg-right.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.section-gioi-thieu{
+     text-align: center;
+        background-image: url(images/about-top-left.png), url(images/about-top-right.png);
+    background-repeat: no-repeat;
+    background-position: 0 0, 100% 0;
+}
+.box-default.box-feature-figure .figure {
+    background: none;
+    padding: 0px;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.box-feature-figure .figcaption {
+    text-align: center;
+    background-color: #ff8d00;
+}
+.box-feature-figure .figure {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    background: #FFF;
+    padding: 20px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.box-feature-figure:hover .figcaption {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    color: #FFF;
+}
+.box-feature-figure:hover .figcaption h3 {
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 300;
+}
+.box-feature-figure:hover .figure {
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    -o-transform: scale(0.3);
+    transform: scale(0.3);
+    opacity: 0;
+}
+
+.flex-right ul li a{
+	text-transform: initial !important;
+	font-size: 16px;
+}
+.box-feature-figure .figcaption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    -o-transform: scale(0.3);
+    transform: scale(0.3);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    border-radius: 5px;
+}
+/*Màu sắc button*/
+.social-button, .social-icons .button.icon:not(.is-outline), .social-icons .button.icon:hover {
+    background-color: currentColor !important;
+    border-color: currentColor !important;
+}
+.button.facebook,.button.facebook:not(.is-outline), .button.facebook:hover {
+color: #fff;
+    background-color: #446084;
+    border-color: #446084;
+}
+.button.twitter,.button.twitter:not(.is-outline), .button.twitter:hover {
+	color: white !important;
+   background : #2478ba !important;
+    border-color: #2478ba;
+}
+.button.email,.button.email:not(.is-outline), .button.email:hover {
+    color: #fff;
+    background-color: black !important;
+    border-color: black !important;
+}
+.button.pinterest,.button.pinterest:not(.is-outline), .button.pinterest:hover {
+color: #fff !important;
+    background-color: #cb2320  !important;
+    border-color: #cb2320  !important;
+}
+
+.button.google-plus,.button.google-plus:not(.is-outline), .button.google-plus:hover {
+color: #fff !important;
+    background-color: #dd4e31 !important;
+    border-color: #dd4e31  !important;
+}
+.button.linkedin,.button.linkedin:not(.is-outline), .button.linkedin:hover {
+color: #fff !important;
+    background-color: #0072b7 !important;
+    border-color: #0072b7     !important;
+}
+
+.single-date{
+        border-bottom: 1px dashed #ededed;
+}
+h1.entry-title{
+    font-size: 24px !important;
+}
+/*Kết thúc màu sắc*/
+
+
+
+footer.entry-meta {
+
+    border-top: none !important;
+    border-bottom: 1px dashed #ececec !important;
+    
+}
+
+.entry-content img{
+	width: auto !important
+}
+.duong-line {
+    background: rgba(0,0,0,0) url(images/line.png) repeat scroll 0 0;
+    height: 12px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.related-post h7{
+	font-weight: bold;
+	    font-size: 18px;
+    float: left;
+    margin: -8px 20px 0 0;
+}
+
+@media(max-width: 855px){
+    .section-sp .product-title{
+        min-height: 38px;
+    }
+    .section-banner{
+            padding-bottom: 0px !important;
+    padding-top: 18px !important;
+    }
+    .icon-dat-ban:hover a {
+    padding-left: 27px;
+    padding-right: 20px;
+}
+    .icon-dat-ban:hover i {
+    left: 4px;
+    right: unset;
+    width: unset;
+    text-align: unset;
+}
+    .div-form-tong .wpcf7-date{
+        margin-bottom: 0px !important;
+    }
+    .section-banner .banner{
+        padding-top: 45% !important;
+    }
+    .section-banner .banner .text-inner{
+        text-align: center !important;
+    }
+    .section-banner .banner .text-box{
+            width: 100% !important;
+    left: 0% !important;
+    }
+    .section-banner .banner a.button{
+        font-size: 13px;
+    }
+    .section-menu .price-wrapper {
+    margin-top: unset;
+    float: unset;
+}
+    .section-menu .box-image{
+            z-index: 9999;
+    margin-right: 9px;
+    width: 33% !important;
+    float: left;
+    }
+    .section-menu .box-text{
+            padding-top: 0px;
+    margin-right: 0px;
+    /* width: 66%; */
+    padding-bottom: 0px;
+    padding-left: 124px;
+    padding-right: 2px;
+
+    }
+    .icon-dat-ban a span{
+        display: none
+    }
+    .icon-dat-ban a {
+    padding: 0px 27px 0px 20px;}
+    .transparent #logo img {
+    max-height: 57px !important;
+}
+    .transparent .header-main {
+    height: 67px !important;
+}
+    .header.show-on-scroll, .header.has-transparent, .header.transparent {
+    background: #8E5738;
+    position: relative;
+}
+    .title-home {
+
+    font-size: 30px;
+}
+.banner h3 {
+    font-size: 21px;
+}
+.banner h2 {
+    font-size: 22px;
+}
+}
+@media(min-width: 1023px){
+    #billing_last_name_field {
+    width: 48%;
+    float: left;
+    clear: unset;
+    margin-right: 10px;
+}
+#billing_phone_field {
+    width: 50%;
+
+    float: left;
+    clear: unset;
+}
+}
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
